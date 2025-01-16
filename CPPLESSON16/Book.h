@@ -8,6 +8,7 @@ protected:
 public:
     Book();
     Book(string name, string author, bool isExist, int year, string publisher);
+    ~Book() { cout << "~Book\n"; };
 
     string getPublisher()const;
     

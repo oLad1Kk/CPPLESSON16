@@ -14,7 +14,7 @@ protected:
 public:
 	Edition();
 	Edition(string name, string author, bool isExist, int year);
-	virtual ~Edition(){}
+	virtual ~Edition() { cout << "~Edition\n"; }
 
 	string getName()const;
 	string getAuthor()const;
