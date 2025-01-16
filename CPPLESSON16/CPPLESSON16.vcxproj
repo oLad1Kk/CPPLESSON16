@@ -131,11 +131,13 @@
     <ClCompile Include="CPPLESSON16.cpp" />
     <ClCompile Include="Edition.cpp" />
     <ClCompile Include="Magazine.cpp" />
+    <ClCompile Include="TextBook.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
     <ClInclude Include="Edition.h" />
     <ClInclude Include="Magazine.h" />
+    <ClInclude Include="TextBook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
